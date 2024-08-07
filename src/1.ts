@@ -71,6 +71,10 @@ fn6({a:0,x:0,y:0,z:0})
 function fn7(location:'top'|'botom'|'left'|'right'):void{
   console.log(location);
 }
-fn7("top")
+fn7("top");
 
-
+function fn8(value?:string|null){
+  console.log(value!.toUpperCase());
+  
+}
+fn8("null")

@@ -38,3 +38,11 @@ function fn6(value) {
     console.log(value);
 }
 fn6({ a: 0, x: 0, y: 0, z: 0 });
+function fn7(location) {
+    console.log(location);
+}
+fn7("top");
+function fn8(value) {
+    console.log(value.toUpperCase());
+}
+fn8("null");

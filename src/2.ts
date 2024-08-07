@@ -11,4 +11,12 @@ const handleName:GetName = function(value:string,value2:string):void{
 }
 console.log(handleName('a',"b"));
 
+// 泛型
+function fn1<T>(arg: T): T {  
+  return arg;  
+}  
+console.log(fn1<string>('a'));
+console.log(fn1<number>(9));
+
+
 
